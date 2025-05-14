@@ -1,0 +1,57 @@
+body{
+    background-color: lightblue; /* Cor de fundo */
+
+    margin: 0;
+}
+
+header{
+    background-color: bisque; /* Dar cor de fundo */
+
+    padding: 1rem 2rem; /* Desgruda dos cantos da cor de fundo */
+
+    display: flex; /* Centraliza portanto além de centralizar 
+    ele deixar os alementos pai flexivel */
+
+    justify-items: grid; /* Centraliza todos os elementos no horizontal 
+    do conteiner pai(header). OBS: se for grid ele irá organizar 
+    os elementos do pai no vertical. */
+
+    position: sticky; /* É como um híbrido entre 
+    position: relative e position: fixed */
+
+    top: 0; /* faz o elemento grudar no topo 
+    do contêiner quando a rolagem atinge esse ponto. */
+
+}
+
+footer{
+    background-color: brown; /* Dar cor de fundo */ 
+
+    color: white; /* Altera a cor da escrita */
+
+    padding: 1rem 2rem; /* Desgruda dos cantos da cor de fundo */
+}
+
+.logo{
+    height: auto; /* garante que a altura seja ajustada 
+    proporcionalmente para evitar distorção. */
+
+    width: 100px; /* Define a largura desejada */
+
+    height: 100px; /* Mantém a proporção */
+}
+
+.carroaudi{
+    height: auto; /* garante que a altura seja ajustada 
+    proporcionalmente para evitar distorção. */
+
+    width: 800px; /* Define a largura desejada */
+
+    height: 500px; /* Mantém a proporção */
+
+}
+
+.tituloaudi{
+    
+    
+}
